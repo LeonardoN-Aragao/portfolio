@@ -1,9 +1,12 @@
 import { NavLink } from "react-router";
 import styled from 'styled-components'
+import GhostWriter from '../assets/favicon.svg'
 
 export default function Header() {
     return (
-        <header>
+        <header style={style.container}>
+            <h1 style={style.title}>Leo's Portfolio</h1>
+            <img style={style.image} src={GhostWriter} alt="ghostWriter" width="30px" height="30"></img>
             <nav style={style.nav}>
                 <Link to="/" end> Home </Link>
                 <Link to="/about" end> About </Link>
@@ -15,8 +18,20 @@ export default function Header() {
 }
 
 const style = {
+    container: {
+      marginTop: '-1vh',
+      color: 'white'
+    },
+    title: {
+      display: 'inline',
+      marginRight: '1vh',
+    },
+    image:{
+      //display: 'block'
+    },
     nav: {
-        marginLeft: '2%'
+        marginLeft: '2%',
+        marginTop: '1vh'
     },
 }
 
