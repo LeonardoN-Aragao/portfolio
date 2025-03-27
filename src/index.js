@@ -10,11 +10,11 @@ import NotFound from './pages/Notfound'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename='portfolio'>
     <Routes>
       <Route index element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/contactMe" element={<ContactMe />} />
+      <Route path="/contactme" element={<ContactMe />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>
