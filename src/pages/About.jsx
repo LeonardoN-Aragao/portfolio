@@ -9,7 +9,7 @@ export default function About(){
         <>
             <Header />
             <div style={style.container}>
-                <img style={style.image} src={image} alt="me" width="175px" height="175"></img>
+                <img style={style.image} src={image} alt="me" width="175vw" height="175vw"></img>
                 <h1> About me</h1>
                 
                 <h2> Resume </h2>
@@ -32,6 +32,7 @@ export default function About(){
 
 const style = {
     container: {
+        marginTop: '3%',
         marginLeft: '2%',
         color: 'white'
     },

@@ -20,10 +20,10 @@ export default function Footer() {
                 {/* Social */}
                 <div>
                     <a href="https://www.github.com/leonardon-aragao" style={style.a} target="_blank" rel="noopener noreferrer">
-                        <img src={Github} title="Github" alt="Github" width="30px" height="30"></img>
+                        <img src={Github} title="Github" alt="Github" style={style.image}></img>
                     </a>
                     <a href="https://www.linkedin.com/in/leonardo-nunes-aragão-156872164" style={style.social} target="_blank" rel="noopener noreferrer">
-                        <img src={Linkedin} title="LinkedIn" alt="LinkedIn" width="30px" height="30"></img>
+                        <img src={Linkedin} title="LinkedIn" alt="LinkedIn" style={style.image}></img>
                     </a>
                 </div>
         </footer>
@@ -32,14 +32,19 @@ export default function Footer() {
 
 const style = {
     container:{
-        color: 'white'
+        color: 'white',
+        width: '100vw'
     },
     links: {
-        marginLeft: '1vh',
+        marginLeft: '1vw',
         marginTop: '2vh'
     },
     a: {
-        marginRight: '1vh'
+        marginRight: '1vw'
+    },
+    image: {
+        width: "4vh",
+        height: "4vh"
     }
 }
 

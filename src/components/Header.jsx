@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <header style={style.container}>
             <h1 style={style.title}>Leo's Portfolio</h1>
-            <img style={style.image} src={GhostWriter} alt="ghostWriter" width="30px" height="30"></img>
+            <img style={style.image} src={GhostWriter} alt="ghostWriter" width="30vh" height="30vh"></img>
             <nav style={style.nav}>
                 <Link to="/" end> Home </Link>
                 <Link to="/about" end> About Me </Link>
@@ -20,11 +20,12 @@ export default function Header() {
 const style = {
     container: {
       marginTop: '-1vh',
-      color: 'white'
+      color: 'white',
+      width: '100vw'
     },
     title: {
       display: 'inline',
-      marginRight: '1vh',
+      marginRight: '1vw',
     },
     image:{
       //display: 'block'
