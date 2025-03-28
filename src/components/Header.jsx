@@ -9,7 +9,7 @@ export default function Header() {
             <img style={style.image} src={GhostWriter} alt="ghostWriter" width="30px" height="30"></img>
             <nav style={style.nav}>
                 <Link to="/" end> Home </Link>
-                <Link to="/about" end> About </Link>
+                <Link to="/about" end> About Me </Link>
                 <Link to="/contactMe">Contact Me</Link>
             </nav>
             <hr></hr>

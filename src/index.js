@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home'
 import About from './pages/About'
-import ContactMe from './pages/ContactMe'
+import ContactMe from './pages/Contact'
 import NotFound from './pages/Notfound'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

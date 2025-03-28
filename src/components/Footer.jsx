@@ -11,7 +11,7 @@ export default function Footer() {
             <hr></hr>
                 <div style={style.links}>
                     <Link to="/" end> Home </Link>
-                    <Link to="/about" end> About </Link>
+                    <Link to="/about" end> About Me</Link>
                     <Link to="/contactMe">Contact Me</Link>
                 </div>
 
