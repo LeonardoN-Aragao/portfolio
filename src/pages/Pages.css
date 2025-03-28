@@ -25,3 +25,43 @@ footer {
 body {
     font-family: system-ui, sans-serif;
 }
+
+/*Table styles*/
+.tg  {
+    border-collapse:collapse;border-spacing:0;
+}
+
+.timeline {
+    margin-top: 2%; 
+    margin-bottom: 4%
+}
+
+
+.dataline {
+    border-width: 0px 3px 0px 0px !important;
+    border-color: white;
+    border-style:solid;
+    vertical-align:bottom;
+    padding-right: 6vh !important;
+    padding-bottom: 5vh !important;
+    text-align:right;
+}
+
+.tg td{
+  border-width: 0px;
+  overflow:hidden;
+  padding:10px;
+  word-break:normal;
+}
+
+.tg .tg-0pky{ 
+    text-align:left;
+    vertical-align:top
+}
+
+@media screen and (max-width: 767px) {
+    .image {width: 25vh !important; height: 100% !important;}
+    .tg {width: auto !important;}
+    .tg col {width: auto !important;}
+    .tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}
+}
