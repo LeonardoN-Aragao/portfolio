@@ -41,7 +41,7 @@ export const itens = [
     {
         date: 'April 2021',
         title:'Federal Subsidy',
-        name: "Banco do Brasil (Brazil's Bank) - Federal Agricultural Subsidy project",
+        name: "Banco do Brasil - Federal Agricultural Subsidy project",
         description: 'My first great project, were used very strict procedures to ensure quality and security of the system.',
         keywords: [ 'Java', 'SpringBoot', 'Back-End' ],
         image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.7Glzg8ZndW33VB9yZ-1ehAHaE3%26pid%3DApi&f=1&ipt=8daab75756b0284f5ec533e43a8d84b0e81b661dad78f521dd6a378871e16003&ipo=images',

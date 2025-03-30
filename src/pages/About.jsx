@@ -1,10 +1,13 @@
 import Footer from "../components/Footer"
 import Header from '../components/Header'
 import styled from 'styled-components'
+import moment from 'moment'
 
 const image = require ('../assets/essa.png')
 
 export default function About(){
+    var birthDate = moment('1998-09-02');
+    var age = moment().diff(birthDate, 'years')
     return (
         <>
             <Header />
@@ -13,8 +16,7 @@ export default function About(){
                 <h1> About me</h1>
                 
                 <h2> Resume </h2>
-                <p>Leonardo Nunes Aragão, 27 years old</p>
-                <p>Married</p>
+                <p>Leonardo Nunes Aragão, {age.toString()} years old</p>
                 <p>FullStack Developer with focus in React and Java</p>
                 <p>Currently working at <Link href="https://compass.uol/en/home/">Compass</Link></p>
                 <p>My Degree Conclusion Work was <b>Using Data Warehouse to Analyse Energy Consumption in Brazil</b> it used python, sqlite and Data Science techniques to work with Big Data.</p>

@@ -22,10 +22,6 @@ header {
     background-color: rgb(45, 45, 45);
 }
 
-/* main {
-    min-width: 90vw;
-} */
-
 footer {
     text-align: center;
     margin-top: auto;
@@ -51,7 +47,6 @@ body {
     border-width: 0vw 2px 0vw 0vw !important;
     border-color: white;
     border-style: solid;
-    vertical-align: center;
     padding-right: 1vw !important;
     text-align: center;
     width: 12vw;
