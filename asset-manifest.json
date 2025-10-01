@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4a0c7d8e.css",
-    "main.js": "/portfolio/static/js/main.fedf2269.js",
+    "main.js": "/portfolio/static/js/main.6cf69779.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/clinica_ultracenter.png": "/portfolio/static/media/clinica_ultracenter.f2eaac17ce553a4f9e21.png",
     "static/media/essa.png": "/portfolio/static/media/essa.515698f87b70fe8d6d4f.png",
+    "static/media/calculator.jpg": "/portfolio/static/media/calculator.47de7f0955c4bdc3c606.jpg",
+    "static/media/qsaude.jpeg": "/portfolio/static/media/qsaude.98045dd79189520ea608.jpeg",
+    "static/media/banco_brasil.jpeg": "/portfolio/static/media/banco_brasil.dda9c34c146f12013682.jpeg",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.183c507635f8f18f6138.png",
     "static/media/favicon.svg": "/portfolio/static/media/favicon.efb6fc2e9c7351a107b4f94505e28a71.svg",
     "static/media/github.svg": "/portfolio/static/media/github.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/portfolio/index.html",
     "main.4a0c7d8e.css.map": "/portfolio/static/css/main.4a0c7d8e.css.map",
-    "main.fedf2269.js.map": "/portfolio/static/js/main.fedf2269.js.map",
+    "main.6cf69779.js.map": "/portfolio/static/js/main.6cf69779.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4a0c7d8e.css",
-    "static/js/main.fedf2269.js"
+    "static/js/main.6cf69779.js"
   ]
 }
