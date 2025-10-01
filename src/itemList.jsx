@@ -65,7 +65,7 @@ export const itens = [
         title:'Qsaúde',
         name: 'Qsaúde website and system',
         description: 'Description',
-        keywords: [ 'TypeScript', 'Java','Spring Boot', 'FullStack' ],
+        keywords: [ 'TypeScript', 'Spring Boot', 'FullStack' ],
         image: qsaude,
         link: 'https://qsaudesite.com.br/'
     },
