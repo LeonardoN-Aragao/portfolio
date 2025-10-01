@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f9231fe7.css",
-    "main.js": "/portfolio/static/js/main.a8515a48.js",
+    "main.js": "/portfolio/static/js/main.26a5447b.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/clinica_ultracenter.png": "/portfolio/static/media/clinica_ultracenter.f2eaac17ce553a4f9e21.png",
     "static/media/essa.png": "/portfolio/static/media/essa.515698f87b70fe8d6d4f.png",
@@ -13,11 +13,11 @@
     "static/media/github.svg": "/portfolio/static/media/github.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/portfolio/index.html",
     "main.f9231fe7.css.map": "/portfolio/static/css/main.f9231fe7.css.map",
-    "main.a8515a48.js.map": "/portfolio/static/js/main.a8515a48.js.map",
+    "main.26a5447b.js.map": "/portfolio/static/js/main.26a5447b.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9231fe7.css",
-    "static/js/main.a8515a48.js"
+    "static/js/main.26a5447b.js"
   ]
 }
